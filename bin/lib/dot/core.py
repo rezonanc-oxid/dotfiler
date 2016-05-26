@@ -200,6 +200,9 @@ def create_install_actions(base_dir, home_dir, tree, filesystem):
                        walk(children, prefix=new_prefix))
 
     def process(path, envs, alternatives):
+        if path in [(u'.git',), (u'.gitmodules',)]:
+            return []
+
         if len(envs) > 1:
             push_action('error', 'File {0} exists in more then one environments: {1}'.format(
                 os.path.join(*path), ', '.join(envs)))
