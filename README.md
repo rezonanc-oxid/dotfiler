@@ -1,6 +1,14 @@
 Dotfiler — the ultimate solution for managing dotfiles!
 =======================================================
 
+Quick install
+-------------
+
+`git clone --recursive git@github.com:rezonanc-oxid/dotfiler.git .dotfiler && ~/.dotfiler/bin/dot update`
+
+About
+-----
+
 [![changelog](http://allmychanges.com/p/python/dotfiler/badge/)](http://allmychanges.com/p/python/dotfiler/?utm_source=badge)
 
 It was inspired by [Zach Holman's dotfiles](https://github.com/holman/dotfiles) and
