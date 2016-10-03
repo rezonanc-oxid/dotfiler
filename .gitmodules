@@ -7,9 +7,6 @@
 [submodule "dotfiler-git"]
 	path = dotfiler-git
 	url = git@github.com:rezonanc-oxid/dotfiler-git.git
-[submodule "dotfiler-bin"]
-	path = dotfiler-bin
-	url = git@github.com:rezonanc-oxid/dotfiler-bin.git
 [submodule "dotfiler-alfred"]
 	path = dotfiler-alfred
 	url = git@github.com:rezonanc-oxid/dotfiler-alfred.git
